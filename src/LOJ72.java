@@ -3,7 +3,8 @@ import java.util.List;
 
 public class LOJ72 {
 	public static void main(String[] args) {
-		String a = "abw";
+		final String a;
+		a = "abw";
 		String b = "abceed";
 		System.out.println(minDistance(a,b));
 	}
